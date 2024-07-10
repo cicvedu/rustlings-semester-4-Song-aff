@@ -5,10 +5,11 @@
 // Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE
-
 fn main() {
-    let a = ???
+    // let a = "Hello, world!";
+    // let a = vec![1, 2, 3];
+    // let a = [1, 2, 3];
+    let a  = String::from("Hello, world!");
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
